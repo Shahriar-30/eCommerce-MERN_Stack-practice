@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
 import LinkPage from "../layout/LinkPage";
 
 function NavList() {
-  const [nav, setNav] = useState(true);
+  const [nav, setNav] = useState(false);
 
   let list = [
     {
@@ -33,6 +33,19 @@ function NavList() {
       path: "/journal",
     },
   ];
+
+  useEffect(() => {
+    let fixNav = () => {
+      if (window.innerWidth < 639) {
+        setNav(false);
+      } else {
+        setNav(true);
+      }
+      console.log("call", window.innerWidth);
+    };
+    fixNav();
+    window.addEventListener("resize", fixNav);
+  }, []);
 
   return (
     <>
