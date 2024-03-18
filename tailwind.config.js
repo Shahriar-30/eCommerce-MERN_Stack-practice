@@ -12,7 +12,7 @@ export default {
       colors: {
         'white': '#fff',
         'prime': '#262626',
-        'secound': '#767676',
+        'secondary': '#767676',
         'gray': '#979797'
       },
     },
