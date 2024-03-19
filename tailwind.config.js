@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        'container': '1440px',
+      },
       fontFamily: {
         'DmSans': ["DM Sans", "sans-serif"],
       },
@@ -13,7 +16,8 @@ export default {
         'white': '#fff',
         'prime': '#262626',
         'secondary': '#767676',
-        'gray': '#979797'
+        'gray': '#979797',
+        'Bg': '#F5F5F3'
       },
     },
   },

@@ -14,7 +14,7 @@ function NavList() {
       } else {
         setNav(true);
       }
-      console.log("call", window.innerWidth);
+      // console.log("call", window.innerWidth);
     };
     fixNav();
     window.addEventListener("resize", fixNav);
