@@ -12,7 +12,7 @@ function Header() {
             <div className="w-full ">
               <Catagory />
             </div>
-            <div className="w-full hover:bg-gray hover:text-white  duration-500 cursor-pointer">
+            <div className="w-full">
               <div className=" lg:hidden">
                 <Other />
               </div>
