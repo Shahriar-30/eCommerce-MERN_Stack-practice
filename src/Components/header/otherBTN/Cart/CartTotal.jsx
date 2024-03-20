@@ -9,7 +9,7 @@ function CartTotal() {
                 Subtotal: <p className='text-black font-bold'>$44.00</p> 
             </div>
             <div className='w-full font-bold  flex gap-1'>
-                <Button txt={'View Cart'} className={'w-full p-4 bg-white text-black border-2 rounded'} />
+                <button className={'w-full p-4  bg-white border-2 rounded text-black'}>View Cart</button>
                 <Button txt={'Checkout'} className={'w-full p-4 rounded'} />
             </div>
         </div>

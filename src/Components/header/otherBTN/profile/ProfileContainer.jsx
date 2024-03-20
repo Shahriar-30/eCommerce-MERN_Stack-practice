@@ -4,7 +4,7 @@ import LinkPage from "../../../layout/LinkPage";
 function ProfileContainer() {
   return (
     <>
-      <div className=" bg-Bg absolute top-[40px] right-0">
+      <div className="w-[180px] bg-Bg absolute top-[40px] right-0">
         <div className="bg-black p-1 px-4 ">
           <LinkPage
             path={"/"}

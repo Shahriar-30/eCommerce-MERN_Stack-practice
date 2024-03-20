@@ -7,7 +7,7 @@ function Input() {
       <div className=" bg-white flex items-center justify-center mt-2 px-2">
         <input
           type="text"
-          className="w-[300px] px-3 py-1 font-medium rounded-sm outline-none"
+          className="w-[300px] px-3 py-1 lg:py-2 font-medium rounded-sm outline-none"
           placeholder="Search Products"
         />
         <div className="cursor-pointer  px-2 py-1">
