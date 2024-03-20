@@ -8,19 +8,23 @@ function Catagory() {
   const [cataModal, setCataModal] = useState(false);
 
   useEffect(() => {
-    document.addEventListener("click", (e) => {
-      if (ele.current.contains(e.target)) {
-        setCataModal(true);
-      } else {
+    let handel = (e) => {
+      if (!ele.current.contains(e.target)) {
         setCataModal(false);
       }
-    });
+    };
+    document.addEventListener("mousedown", handel);
+    return () => {
+      document.removeEventListener("mousedown", handel);
+    };
   }, []);
 
   return (
     <>
       <div className="relative" ref={ele}>
+        <div onClick={() => setCataModal(!cataModal)}>
           <CataBTN />
+        </div>
         {cataModal && <CataContainer />}
       </div>
     </>
