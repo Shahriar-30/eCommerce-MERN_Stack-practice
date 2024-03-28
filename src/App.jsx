@@ -3,7 +3,6 @@ import HomePage from "../pages/HomePage";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./Components/navBar/NavBar";
 import Header from "./Components/header/Header";
-import Container from "./Components/layout/Container";
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
       <div>
         <NavBar />
         <Header />
-        <Container />
+        {/* <Container /> */}
       </div>
       <Routes>
         <Route path="/" element={<HomePage />} />

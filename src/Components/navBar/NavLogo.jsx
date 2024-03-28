@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../layout/Img";
+import Img from "../reUseAble/Img";
 
 function NavLogo() {
   let logo = "img/logo.svg";

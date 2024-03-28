@@ -1,5 +1,5 @@
 import React from "react";
-import LinkPage from "../../../layout/LinkPage";
+import LinkPage from "../../../reUseAble/LinkPage";
 
 function ProfileContainer() {
   return (

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
-import LinkPage from "../layout/LinkPage";
+import LinkPage from '../reUseAble/LinkPage'
 import { list } from "./txt";
 
 function NavList() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaUser } from "react-icons/fa";
-import HeaderBTN from '../../../layout/HeaderBTN';
+import HeaderBTN from '../../../reUseAble/HeaderBTN';
 
 function ProfileBTN() {
   return (

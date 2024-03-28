@@ -1,6 +1,6 @@
 import React from "react";
 import { catagoryTxt } from "./CataTXT";
-import BlakModal from "../../layout/BlakModal";
+import BlakModal from "../../reUseAble/BlakModal";
 
 function CataContainer() {
   return (

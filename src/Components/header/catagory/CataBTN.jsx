@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBarsProgress } from "react-icons/fa6";
-import HeaderBTN from "../../layout/HeaderBTN";
+import HeaderBTN from "../../reUseAble/HeaderBTN";
 
 function CataBTN() {
   return (

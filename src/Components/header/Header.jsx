@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../layout/Container";
+import Container from "../reUseAble/Container";
 import Catagory from "./catagory/Catagory";
 import Other from "./otherBTN/Other";
 import Input from "./input/Input";

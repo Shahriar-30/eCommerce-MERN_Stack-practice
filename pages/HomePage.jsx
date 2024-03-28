@@ -1,9 +1,14 @@
-import React from 'react'
+import Banner from "../src/Components/layout/home/banner/Banner";
+
 
 function HomePage() {
+
+
   return (
-    <h1>homepage</h1>
-  )
+    <>
+      <Banner />
+    </>
+  );
 }
 
-export default HomePage
+export default HomePage;

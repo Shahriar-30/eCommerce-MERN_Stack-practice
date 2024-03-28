@@ -1,13 +1,13 @@
-import React from 'react'
-import HeaderBTN from '../../../layout/HeaderBTN'
+import React from "react";
+import HeaderBTN from "../../../reUseAble/HeaderBTN";
 import { FaShoppingCart } from "react-icons/fa";
 
 function CartBTN() {
-    return (
-      <>
-          <HeaderBTN btn={<FaShoppingCart className='text-xl' />} />
-      </>
-    )
+  return (
+    <>
+      <HeaderBTN btn={<FaShoppingCart className="text-xl" />} />
+    </>
+  );
 }
 
-export default CartBTN
+export default CartBTN;

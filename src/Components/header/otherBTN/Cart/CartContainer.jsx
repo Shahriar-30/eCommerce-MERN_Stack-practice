@@ -1,6 +1,6 @@
 import React from "react";
 import CartTotal from "./CartTotal";
-import Img from "../../../layout/Img";
+import Img from "../../../reUseAble/Img";
 import { FaXmark } from "react-icons/fa6";
 
 function CartContainer() {

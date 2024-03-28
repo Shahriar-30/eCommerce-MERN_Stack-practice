@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../../../layout/Button'
+import Button from '../../../reUseAble/Button'
 
 function CartTotal() {
   return (
