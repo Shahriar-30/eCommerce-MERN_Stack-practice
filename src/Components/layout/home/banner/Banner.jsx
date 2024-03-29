@@ -65,7 +65,7 @@ function Banner() {
     ]
   };
   return (
-    <Slider {...settings}>
+    <Slider {...settings} >
       <div>
         <Img src={"img/banner.png"} alt={"banner"} className={"bg-no-repeat"} />
       </div>

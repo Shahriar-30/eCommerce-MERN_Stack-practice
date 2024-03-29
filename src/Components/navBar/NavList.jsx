@@ -22,7 +22,7 @@ function NavList() {
 
   return (
     <>
-      <div className="flex justify-center items-center h-[20px] sm:hidden">
+      <div className="flex justify-center items-center h-[20px] sm:hidden cursor-pointer">
         {nav ? (
           <FaXmark className="text-[28px]  " onClick={() => setNav(false)} />
         ) : (
@@ -34,9 +34,9 @@ function NavList() {
       </div>
 
       {nav && (
-        <ul className="w-full bg-white  absolute right-0 top-[44px] p-2 flex flex-col sm:static sm:flex-row  sm:p-0 sm:gap-3  ">
+        <ul className="w-full h-fit bg-white z-50 absolute right-0 top-[44px] p-2 flex flex-col sm:static sm:flex-row  sm:p-0 sm:gap-3  ">
           {list.map((e) => (
-            <li
+            <li 
               key={e.id}
               className=" text-center cursor-pointer text-[rgba(0,0,0,0.68)] font-light text-[14px] hover:text-black p-1 sm:p-0 sm:text-[18px]  "
             >
