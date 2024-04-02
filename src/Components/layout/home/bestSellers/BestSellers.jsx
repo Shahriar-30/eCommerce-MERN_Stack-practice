@@ -1,10 +1,10 @@
 import React from 'react';
-import Title from '../../../reUseAble/Title';
-import Container from '../../../reUseAble/Container';
-import Card from "../../../reUseAble/card/Card";
 import Slider from "react-slick";
+import Title from '../../../reUseAble/Title';
+import Card from "../../../reUseAble/card/Card";
 import { MdNavigateNext } from "react-icons/md";
 import { GrFormPrevious } from "react-icons/gr";
+import Container from '../../../reUseAble/Container';
 import "slick-carousel/slick/slick.css";
 
 function BestSellers() {

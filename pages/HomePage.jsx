@@ -3,6 +3,7 @@ import Offer3 from "../src/Components/layout/home/offer/Offer3";
 import Service from "../src/Components/layout/home/service/Service";
 import Arrive from "../src/Components/layout/home/newArrive/Arrive";
 import BestSellers from "../src/Components/layout/home/bestSellers/BestSellers";
+import Offer1 from "../src/Components/layout/home/offer/Offer1";
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
       <Offer3 />
       <Arrive />
       <BestSellers />
+      <Offer1 />
     </>
   );
 }
