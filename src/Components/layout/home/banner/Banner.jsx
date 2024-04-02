@@ -65,7 +65,9 @@ function Banner() {
     ]
   };
   return (
-    <Slider {...settings} >
+    <div className="w-full max-w-container mx-auto ">
+
+    <Slider {...settings}  className="mx-auto w-full">
       <div>
         <Img src={"img/banner.png"} alt={"banner"} className={"bg-no-repeat"} />
       </div>
@@ -76,6 +78,7 @@ function Banner() {
         <Img src={"img/banner.png"} alt={"banner"} className={"bg-no-repeat"} />
       </div>
     </Slider>
+    </div>
   );
 }
 
