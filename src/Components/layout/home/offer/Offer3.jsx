@@ -4,7 +4,7 @@ import Container from "../../../reUseAble/Container";
 
 function Offer3() {
   return (
-    <Container className=" my-[20px] lg:my-[60px]  flex flex-col lg:flex-row items-center justify-between gap-4 ">
+    <Container className=" my-[20px] lg:my-[60px]  flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-8 ">
       {/* height: 580px width: 680px */}
       <Img
         src={"img/offer1.png"}

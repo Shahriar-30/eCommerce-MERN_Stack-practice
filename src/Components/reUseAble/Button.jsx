@@ -5,7 +5,7 @@ function Button({ txt, className }) {
   return (
     <>
       <button
-        className={`select-none text-white bg-prime relative ${className}`}
+        className={`select-none text-white bg-prime ${className}`}
       >
         {txt}
       </button>
