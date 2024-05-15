@@ -16,17 +16,17 @@ export let catagoryTxt = [
   },
   {
     id: 4,
-    name: "Clothes",
+    name: "Home appliances",
     path: "/",
   },
   {
     id: 5,
-    name: "Bags",
+    name: "Clothes",
     path: "/",
   },
   {
     id: 6,
-    name: "Home appliances",
+    name: "Bags",
     path: "/",
   },
 ];
